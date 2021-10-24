@@ -19,14 +19,14 @@ using namespace std;
 
 int main()
 {
-    double f = 3.1415967;
+    double f = 315.1475967;
     cout << setprecision(5) << f << endl;   // digit count with include non decimal part 
     cout << setprecision(7) << f << endl;   
     cout << setprecision(9) << f << endl;
 
     cout << fixed;      // fixed decimal digit only if not then zero added
 
-    cout << setprecision(5) << f << endl;
+    cout << setprecision(2) << f << endl;
     cout << setprecision(7) << f << endl;
     cout << setprecision(9) << f << endl;
     return 0;
