@@ -28,6 +28,7 @@ int main()
     {
         cout << "Default error" << endl;
     }
-
+    // compiler show error to put catch all block before any other catch. 
+    // The catch(...) must be the last catch block.
     return 0;
 }
