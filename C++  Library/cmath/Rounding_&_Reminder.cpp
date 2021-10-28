@@ -23,7 +23,7 @@ int main()
     cout << ceil(b) << endl;
     cout << ceil(c) << endl;
 
-    cout << trunc(x) << endl; // remove decimal digits
+    cout << trunc(x) << endl; // remove decimal digits only (without rounding off)
     cout << trunc(y) << endl;
     cout << trunc(z) << endl;
 
@@ -31,7 +31,7 @@ int main()
     cout << trunc(b) << endl;
     cout << trunc(c) << endl;
 
-    cout << round(x) << endl; // round of and remove decimal
+    cout << round(x) << endl; // round off and remove decimal
     cout << round(y) << endl;
     cout << round(z) << endl;
 
