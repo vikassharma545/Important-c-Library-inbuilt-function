@@ -1,0 +1,21 @@
+// For the usage of unordered set
+#include <unordered_set>
+
+// For input output
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    // Hard-coded unordered set
+    unordered_set<int> s1 = {1, 4, 8, 3, 2};
+
+    // Initializing an iterator for unordered set
+    unordered_set<int>::iterator it;
+
+    // Printing each element
+    for (it = s1.begin(); it != s1.end(); it++)
+        cout << *it << " ";
+    cout << endl;
+}
